@@ -80,7 +80,8 @@ if __name__ == '__main__':
 
     # 2. Hostname and Domain (Attention: Remove spaces and use .local)
     # my_hostname = socket.gethostname().lower().replace(" ", "-").
-    my_hostname = "bill"
+    
+    my_hostname = "" ### Add your local hostname here!
     domain_name = f"{my_hostname}.local"
 
     # 3. Zeroconf settings (now HTTP, not HTTPS).
